@@ -1,5 +1,6 @@
 # A repository that recorded the contents of courses using R
 
+## This course is from Department of Bigdata Engineering SCH Univ. 
 - Time-Series Data Course
   - This course teach me how to explore, preprocess, analyze Time_Series Data.
   - Using R programming, Jupyter notebook
