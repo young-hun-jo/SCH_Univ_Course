@@ -1,0 +1,18 @@
+#머신러닝 모델링하면서 자주 쓰는 문법 
+
+1. from sklearn import preprocessing (데이터 전처리 라이브러리에서 자주 사용)
+- a = preprocessing.LabelEncoder() : 값을 '카테고리'에서 '숫자'로 바꿀준비!
+- a.fit(data['class']) : '숫자'로 바꾸어줄 값을 지정해줌!
+- a.transform(['class1','class2']) : '숫자로'로 return해줌
+- a.inverse_transform([0, 1]) : 다시 '카테고리값'으로 return해줌
+- 위 두개를 한번에 fit_transform으로 가능
+
+2. DecisionTreeClassifier
+- DecisionTreeClassifier(min_samples_split=20..) => 노드 분할하다가 20개 미만데이터가 존재하면 그 때 바로 terminal node로 간주하고 더이상 분할 안함!
+- feature 기여도(importance) : feature_importances_()
+- 예측도와 각 label별 확률값도 알려줌 : predict_proba(feature들df)
+- train, test데이터 분할시 train_test_split(data, test_size=0.1) 이면 train은 90%, test는 10% 비율로 나누겠다는 의미
+
+3. KFold
+- KFold에서 n_splits로 fold개수 정해준 후 KFold나름의 train/test 데이터 나누어 주는 함수 있음 : Kfold.split(data) 하면 알아서 앞에 n_splits기준으로 나누어줌
+ 
