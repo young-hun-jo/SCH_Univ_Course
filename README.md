@@ -13,6 +13,6 @@
    - Using R programming, Jupyter notebook
   
  - Machine Learning(using Python)
-   - This course theach me the theory of various machne learning models and hands-on modeling on jupyter notebook.
+   - This course teach me the theory of various machne learning models and hands-on modeling on jupyter notebook.
    - But I have recorded hands-on modeling based on contents of lecture.
    
