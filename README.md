@@ -15,4 +15,5 @@
  - Machine Learning(using Python)
    - This course teach me the theory of various machne learning models and hands-on modeling on jupyter notebook.
    - But I have recorded hands-on modeling based on contents of lecture.
+   - Learnings about machine learning algorithm are presently being posted on <a href='https://techblog-history-younghunjo1.tistory.com'>my own blog</a>
    
